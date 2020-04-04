@@ -1,0 +1,61 @@
+/* Global Styles */
+
+/* google font */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato', sans-serif;
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* self styles */
+main {
+    background-color: rgb(238,238,238);
+}
+header {
+    text-align: center;
+}
+header h1 {
+    padding: 1rem 0;
+    color: rgb(51,51,51);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+header p {
+    padding-bottom: 1.2rem;
+    color: rgb(138,138,138);
+}
+#img-div {
+    width: 98%;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+}
+#img-div figure {
+    width: 80%;
+    margin: 0 auto;
+}
+#tribute-info {
+    text-align: center;
+    word-spacing: .1rem;
+    color: rgb(51,51,51);
+    padding-top: .8rem;
+    padding-bottom: .4rem;
+
+}
+
+
+
