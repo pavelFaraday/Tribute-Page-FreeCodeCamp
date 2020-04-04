@@ -11,9 +11,6 @@
 html {
     font-family: 'Lato', sans-serif;
 }
-li {
-    list-style: none;
-}
 img {
     width: 100%;
     max-width: 100%;
@@ -22,6 +19,7 @@ img {
 
 
 /* self styles */
+/* section #1 - header */
 main {
     background-color: rgb(238,238,238);
 }
@@ -38,6 +36,8 @@ header p {
     padding-bottom: 1.2rem;
     color: rgb(138,138,138);
 }
+
+/* section #2 - Image hero  */
 #img-div {
     width: 98%;
     padding: 1rem;
@@ -54,8 +54,33 @@ header p {
     color: rgb(51,51,51);
     padding-top: .8rem;
     padding-bottom: .4rem;
-
 }
 
+/* section #3 - TimeLine  */
+#timeline {
+    width: 45%;
+    margin: 0 auto;
+}
+#timeline_title {
+    padding: 3rem 0;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+#timeline li {
+    padding: 0.8rem 0;
+    color: rgb(91,91,91);
+    line-height: 1.6rem;
+    letter-spacing: 0.3px;
+}
+#timeline strong {
+    color: rgb(44, 44, 44)
+}
+
+/* section #3.1 - TimeLine/Tribute_quotation */
+
+
+/* section #4 - Wikipedia entry */
 
 
