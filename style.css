@@ -1,5 +1,4 @@
 /* Global Styles */
-
 /* google font */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
@@ -16,6 +15,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 
 
 /* self styles */
@@ -79,8 +79,48 @@ header p {
 }
 
 /* section #3.1 - TimeLine/Tribute_quotation */
-
+#tribute_quotation {
+    padding: 2rem 0;
+    width: 95%;
+    color: rgb(91,91,91);
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+#tribute_quotation_caption {
+    margin-top: 1rem;
+}
 
 /* section #4 - Wikipedia entry */
+footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    text-align: center;
+}
+footer h2 {
+    color: rgb(51,51,51);
+    font-size: 1.2rem;
+}
+footer h2 a {
+    color: rgb(71,123,166);
+}
 
+/* @media for small Devices*/
+@media screen and (min-width: 300px) {
+    #img-div {
+        width: 95%;
+    }
+    #img-div figure{
+        width: 100%;
+    }
+    #timeline {
+        width: 80%;
+    }
+}
+/* @media for medium and large Devices*/
+@media only screen and (min-width: 992px) {
+    #timeline {
+        width: 45%;
+    }
+}
 
