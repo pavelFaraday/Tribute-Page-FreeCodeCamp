@@ -20,3 +20,6 @@ Tribute Page (FreeCodeCamp) with only html and css. No frameworks.
 **User Story #8:** The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
 **User Story #9:** The img element should be centered within its parent element.
+
+You can see this project LIVE at the following URL:
+https://pavelfaraday.github.io/Tribute-Page-FreeCodeCamp/
